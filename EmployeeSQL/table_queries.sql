@@ -20,7 +20,7 @@ JOIN employees ON employees.emp_no = department_info.emp_no;
 
 SELECT * FROM manager_dept
 
--- 4.List the department number for each employee along with that employee’s employee number, last name, first name, and department name
+-- 4. List the department number for each employee along with that employee’s employee number, last name, first name, and department name
 
 CREATE VIEW employee_dept AS
 SELECT dept_no, employees.emp_no, last_name, first_name FROM employees
